@@ -1,0 +1,35 @@
+.fa-heart{
+	font-size: 50px;
+}
+.fa-circle, .fa-circle-thin{
+	font-size: 20px;
+}
+.fa{
+	margin-left: 5px;
+}
+.fa-times{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.workout-wrapper{
+	padding: 15px;
+	border: 1px solid black;
+	margin-bottom: 15px;
+	position: relative;
+}
+input[type=checkbox] {
+ 	-moz-appearance:none;
+	-webkit-appearance:none;
+	-o-appearance:none;
+	border: none;
+	outline: 0;
+}
+
+input[type=checkbox]:focus{
+    outline: 0;
+}
+
+input[type=checkbox]:checked{
+	color: red;
+}
