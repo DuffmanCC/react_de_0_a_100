@@ -1,4 +1,4 @@
-.fa-heart{
+.fa-heart, .fa-spinner{
 	font-size: 50px;
 }
 .fa-circle, .fa-circle-thin{
@@ -12,8 +12,13 @@
 	top: 10px;
 	right: 10px;
 }
+.fa-pencil, .fa-check{
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
 .workout-wrapper{
-	padding: 15px;
+	padding: 25px;
 	border: 1px solid black;
 	margin-bottom: 15px;
 	position: relative;
